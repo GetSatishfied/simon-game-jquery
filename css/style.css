@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    text-align: center;
+    background-color: #2c2b2b;
+}
+
+#title {
+    font-family: 'Press Start 2p', cursive;
+    margin: 5%;
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.simon-button {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    margin: 25px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-user-select: none;
+    border-radius: 20%;
+}
+
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.red {
+    background-color: red
+}
+
+.green {
+    background-color: green
+}
+
+.blue {
+    background-color: blue
+}
+
+.yellow {
+    background-color: yellow
+}
+
+.simon-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.simon-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
